@@ -6,9 +6,43 @@ const globalStyles = `
   body { background: #000; font-family: 'DM Sans', sans-serif; color: #fff; overflow-x: hidden; }
   #root { width: 100%; max-width: none; margin: 0; text-align: initial; border-inline: 0; min-height: 100vh; display: block; }
 
-  ::-webkit-scrollbar { width: 4px; }
-  ::-webkit-scrollbar-track { background: #000; }
-  ::-webkit-scrollbar-thumb { background: #cf1020; border-radius: 2px; }
+  ::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #cf1020,
+    #ff5a36
+  );
+
+  border-radius: 20px;
+
+  border: 2px solid #050505;
+
+  box-shadow:
+    0 0 10px rgba(207,16,32,0.5),
+    0 0 20px rgba(207,16,32,0.3);
+
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #ff3045,
+    #ff7b54
+  );
+
+  box-shadow:
+    0 0 15px rgba(255,90,54,0.7),
+    0 0 30px rgba(255,90,54,0.5);
+}
 
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(40px); }
