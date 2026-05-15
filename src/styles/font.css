@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Akira";
+  src: url("../assets/fonts/akira_expanded/Akira Expanded Demo.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Jones";
+  src: url("../assets/fonts/jones/fonts/Jones-Regular.ttf")
+    format("truetype");
+}
