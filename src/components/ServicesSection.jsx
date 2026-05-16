@@ -129,7 +129,7 @@ export default function ServicesSection() {
           <Typography
             variant="body1"
             sx={{
-              maxWidth: "700px",
+              // maxWidth: "700px",
 
               mx: "auto",
 
