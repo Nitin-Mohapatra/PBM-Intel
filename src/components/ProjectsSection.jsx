@@ -185,7 +185,10 @@ export default function ProjectsSection() {
           left: 0,
           bottom: 0,
 
-          width: "200px",
+          width: {
+            xs: "3em",
+            md: "200px",
+          },
 
           background:
             "linear-gradient(to right, #000, transparent)",
@@ -203,7 +206,10 @@ export default function ProjectsSection() {
           right: 0,
           bottom: 0,
 
-          width: "200px",
+          width: {
+            xs: "3em",
+            md: "200px",
+          },
 
           background:
             "linear-gradient(to left, #000, transparent)",
