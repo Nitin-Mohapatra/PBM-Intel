@@ -42,7 +42,16 @@ export default function Footer() {
           textAlign: "center",
         }}
       >
-        Do The Undone .
+        Do The {" "}
+           <Box
+              component="span"
+              sx={{
+                color: "white",
+              }}
+            >
+              Undone .
+            </Box>
+        
       </Typography>
 
       {/* LINKS */}

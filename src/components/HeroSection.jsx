@@ -1,5 +1,6 @@
 import { Box, Typography, Button } from "@mui/material";
 import { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 
 export default function HeroSection() {
   const [offsetY, setOffsetY] = useState(0);
@@ -246,11 +247,11 @@ export default function HeroSection() {
               flexWrap: "wrap",
             }}
           >
-            <Button variant="contained">
+            <Button variant="contained" component="a"  href="https://www.paperballmedia.com"  target="_blank">
               Get Started
             </Button>
 
-            <Button variant="outlined">
+            <Button variant="outlined" component={Link} to="projects" smooth="linear" duration={900} >
               View Work
             </Button>
           </Box>

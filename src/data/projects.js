@@ -12,46 +12,46 @@ import project9 from "../assets/projects/project9.png";
 export const projectImages = [
   {
     image: project1,
-    label: "Vedic Multiplex",
-  },
-
-  {
-    image: project2,
-    label: "ODRAOPS",
-  },
-
-  {
-    image: project3,
-    label: "Aloodum Media",
-  },
-
-  {
-    image: project4,
-    label: "MAAC BBSR",
-  },
-
-  {
-    image: project5,
     label: "NUDE Fashion",
   },
 
   {
-    image: project6,
-    label: "Fleur Cafe",
+    image: project2,
+    label: "Paperball Media",
   },
 
   {
-    image: project7,
-    label: "Get Fit",
-  },
-
-  {
-    image: project8,
+    image: project3,
     label: "Crafted Ceramics",
   },
 
   {
+    image: project4,
+    label: "Get Fit",
+  },
+
+  {
+    image: project5,
+    label: "Fleur",
+  },
+
+  {
+    image: project6,
+    label: "Aloodum Media Pvt. Ltd.",
+  },
+
+  {
+    image: project7,
+    label: "Maac",
+  },
+
+  {
+    image: project8,
+    label: "OdraOps - Construction ERP",
+  },
+
+  {
     image: project9,
-    label: "Paperball Media",
+    label: "Vedic Multiplex",
   },
 ];

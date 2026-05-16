@@ -109,20 +109,20 @@ export default function ServicesSection() {
           <Typography
             variant="h2"
             sx={{
-              color: "#cf1020",
+              color: "white",
               mb: 2,
               lineHeight: 1,
             }}
           >
-            Our Services
-            {/* <Box
+            Our {" "}
+            <Box
               component="span"
               sx={{
                 color: "#cf1020",
               }}
             >
               Services
-            </Box> */}
+            </Box>
           </Typography>
 
           {/* PARAGRAPH */}

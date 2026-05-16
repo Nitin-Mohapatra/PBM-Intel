@@ -1,7 +1,7 @@
 import { Box, Typography, Button } from "@mui/material";
 import { Icons } from "./Icons";
 
-export default function CTASection() {
+export default function CTASection({ openCalendar }) {
   return (
     <Box
       sx={{
@@ -151,6 +151,7 @@ export default function CTASection() {
 
         {/* BUTTON */}
         <Button
+          onClick={openCalendar}
           variant="contained"
           sx={{
             px: 5,

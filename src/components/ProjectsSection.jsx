@@ -8,9 +8,9 @@ export default function ProjectsSection() {
 
   return (
     <Box
+      id="projects"
       sx={{
         py: 5,
-
         position: "relative",
 
         overflow: "hidden",
@@ -186,7 +186,7 @@ export default function ProjectsSection() {
           bottom: 0,
 
           width: {
-            xs: "3em",
+            xs: "2em",
             md: "200px",
           },
 
@@ -207,7 +207,7 @@ export default function ProjectsSection() {
           bottom: 0,
 
           width: {
-            xs: "3em",
+            xs: "2em",
             md: "200px",
           },
 

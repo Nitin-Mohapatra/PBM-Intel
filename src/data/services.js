@@ -4,4 +4,5 @@ export const services = [
   { icon: "Software", title: "Software Development", desc: "Scalable, robust software architecture designed to grow with your business and handle real-world demands." },
   { icon: "Mobile", title: "Mobile App Development", desc: "Cross-platform mobile apps with native-quality performance for iOS and Android ecosystems." },
   { icon: "Coding", title: "Coding Solutions", desc: "Expert code reviews, debugging, optimization, and technical consultation to elevate your existing projects." },
+  { icon: "SEO", title: "SEO Optimization", desc: "Boost your search rankings, drive organic traffic, and grow your online presence with strategic SEO optimization." },
 ];

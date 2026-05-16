@@ -47,12 +47,12 @@ const theme = createTheme({
     },
     h2: {
       fontFamily: "Akira, sans-serif",
-       fontSize: defaultTheme.typography.pxToRem(60),
+      fontSize: defaultTheme.typography.pxToRem(60),
       lineHeight: 1,
       letterSpacing: "-4px",
       fontWeight: 700,
 
-       [defaultTheme.breakpoints.down("md")]: {
+      [defaultTheme.breakpoints.down("md")]: {
         fontSize: defaultTheme.typography.pxToRem(45),
         letterSpacing: "-2px",
       },
@@ -76,7 +76,9 @@ const theme = createTheme({
       fontSize: "2em",
       fontWeight: 700,
     },
-
+    h6: {
+      fontFamily: "Akira, sans-serif",
+    },
     body1: {
       fontFamily: "Jones, sans-serif",
       fontSize: "1rem",
@@ -97,9 +99,8 @@ const theme = createTheme({
   components: {
     MuiButton: {
       styleOverrides: {
-        root: {
+        root: ({ theme }) => ({
           borderRadius: "5px",
-          padding: "12px 28px",
 
           fontFamily: "Akira, sans-serif",
           fontWeight: 800,
@@ -109,7 +110,12 @@ const theme = createTheme({
           boxShadow: "none",
 
           transition: "all 0.3s ease",
-        },
+
+          // tablet and above
+          [theme.breakpoints.up("sm")]: {
+            padding: "12px 28px",
+          },
+        }),
 
         contained: {
           background: "#f85b32",

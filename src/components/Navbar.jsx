@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import { Button } from "@mui/material";
 
-export default function Navbar() {
+export default function Navbar({ openCalendar }) {
   return (
     <nav
       className="navbar navbar-dark sticky-top"
@@ -18,6 +18,7 @@ export default function Navbar() {
         {/* BUTTON */}
         <Button
         variant="contained"
+        onClick={openCalendar}
           sx={{
             borderRadius: "10px",
             border: "none",
