@@ -71,42 +71,42 @@ export default function CTASection({ openCalendar }) {
       >
         {/* ICON BOX */}
         <Box
-          // sx={{
-          //   width: "70px",
-          //   height: "70px",
+        // sx={{
+        //   width: "70px",
+        //   height: "70px",
 
-          //   borderRadius: "20px",
+        //   borderRadius: "20px",
 
-          //   border:
-          //     "1px solid rgba(207,16,32,0.3)",
+        //   border:
+        //     "1px solid rgba(207,16,32,0.3)",
 
-          //   background:
-          //     "rgba(207,16,32,0.08)",
+        //   background:
+        //     "rgba(207,16,32,0.08)",
 
-          //   display: "flex",
+        //   display: "flex",
 
-          //   alignItems: "center",
+        //   alignItems: "center",
 
-          //   justifyContent: "center",
+        //   justifyContent: "center",
 
-          //   mx: "auto",
+        //   mx: "auto",
 
-          //   mb: 5,
+        //   mb: 5,
 
-          //   animation:
-          //     "glowPulse 3s ease-in-out infinite",
-          // }}
+        //   animation:
+        //     "glowPulse 3s ease-in-out infinite",
+        // }}
         >
-          <Typography variant="h2" sx={{color:"#cf1020" , py:5}}>
+          <Typography variant="h2" sx={{ color: "#cf1020", py: 5 }}>
             Let's Do The {" "}
             <Box
-            component="span"
-            sx={{
-              color: "#fff",
-            }}
-          >
-            Undone .
-          </Box>
+              component="span"
+              sx={{
+                color: "#fff",
+              }}
+            >
+              Undone .
+            </Box>
           </Typography>
         </Box>
 
@@ -154,8 +154,15 @@ export default function CTASection({ openCalendar }) {
           onClick={openCalendar}
           variant="contained"
           sx={{
-            px: 5,
-            py: 2,
+            px: {
+              xs: 0,
+              sm: 5,
+            },
+
+            py: {
+              xs: 0,
+              sm: 2,
+            },
           }}
         >
           Schedule a Meeting
