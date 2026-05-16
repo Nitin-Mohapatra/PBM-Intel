@@ -78,10 +78,35 @@ const theme = createTheme({
     },
     h6: {
       fontFamily: "Akira, sans-serif",
+       fontSize: defaultTheme.typography.pxToRem(15),
+
+      [defaultTheme.breakpoints.down("md")]: {
+        fontSize: defaultTheme.typography.pxToRem(15),
+        letterSpacing: "-2px",
+      },
+
+      [defaultTheme.breakpoints.down("sm")]: {
+        fontSize: defaultTheme.typography.pxToRem(10),
+        letterSpacing: "-1px",
+      },
+
+      [defaultTheme.breakpoints.down("xs")]: {
+        fontSize: defaultTheme.typography.pxToRem(10),
+      },
     },
+
     body1: {
       fontFamily: "Jones, sans-serif",
       fontSize: "1rem",
+
+      [defaultTheme.breakpoints.down("sm")]: {
+        fontSize: defaultTheme.typography.pxToRem(12),
+        letterSpacing: "-1px",
+      },
+
+      [defaultTheme.breakpoints.down("xs")]: {
+        fontSize: defaultTheme.typography.pxToRem(12),
+      },
       // lineHeight: 1.1,
       fontWeight: "800"
     },
