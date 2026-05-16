@@ -155,12 +155,12 @@ export default function CTASection({ openCalendar }) {
           variant="contained"
           sx={{
             px: {
-              xs: 0,
+              // xs: 0,
               sm: 5,
             },
 
             py: {
-              xs: 0,
+              // xs: 0,
               sm: 2,
             },
           }}
