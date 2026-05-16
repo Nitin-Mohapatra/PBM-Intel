@@ -187,7 +187,7 @@ export default function HeroSection() {
 
               letterSpacing: "-4px",
 
-
+              
               mx: "auto",
 
               color: "#fff",

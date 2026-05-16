@@ -58,7 +58,7 @@ export default function CTASection() {
       {/* CONTENT */}
       <Box
         sx={{
-          maxWidth: "900px",
+          // maxWidth: "900px",
 
           mx: "auto",
 
@@ -97,7 +97,7 @@ export default function CTASection() {
           //     "glowPulse 3s ease-in-out infinite",
           // }}
         >
-          <Typography variant="h3" sx={{color:"#cf1020" , py:5}}>
+          <Typography variant="h2" sx={{color:"#cf1020" , py:5}}>
             Let's Do The {" "}
             <Box
             component="span"
