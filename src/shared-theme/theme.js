@@ -100,12 +100,12 @@ const theme = createTheme({
       fontSize: "1rem",
 
       [defaultTheme.breakpoints.down("sm")]: {
-        fontSize: defaultTheme.typography.pxToRem(12),
+        fontSize: defaultTheme.typography.pxToRem(15),
         letterSpacing: "-1px",
       },
 
       [defaultTheme.breakpoints.down("xs")]: {
-        fontSize: defaultTheme.typography.pxToRem(12),
+        fontSize: defaultTheme.typography.pxToRem(15),
       },
       // lineHeight: 1.1,
       fontWeight: "800"
