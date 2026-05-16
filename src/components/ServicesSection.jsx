@@ -218,7 +218,7 @@ export default function ServicesSection() {
 
                 {/* TITLE */}
                 <Typography
-                  variant="h6"
+                  variant="h5"
                   sx={{
                     mb: 2,
 

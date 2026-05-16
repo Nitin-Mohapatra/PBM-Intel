@@ -76,6 +76,9 @@ const theme = createTheme({
       fontSize: "2em",
       fontWeight: 700,
     },
+    h5:{
+      fontFamily: "Akira, sans-serif",
+    },
     h6: {
       fontFamily: "Akira, sans-serif",
        fontSize: defaultTheme.typography.pxToRem(15),
